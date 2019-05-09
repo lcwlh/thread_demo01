@@ -7,7 +7,7 @@ public class CreateThreadDemo01 extends Thread{
     @Override
     public void run() {
         for (int i = 0; i < 30; i++) {
-            System.out.println("run,i:"+i);
+            System.out.println("run,ii:"+i);
         }
     }
 }
